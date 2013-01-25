@@ -1,0 +1,12 @@
+{
+    "name": "grandhealthauto/highscore",
+    "type": "library",
+    "description": "highscore server for grand health auto",
+    "keywords": ["grand health auto"],
+    "homepage": "http://globalgamejam.org/2013/grand-health-auto",
+    "license": "Creative Commons",
+    "authors": [{ "name": "Peter Petermann", "email": "ppetermann80@gmail.com", "homepage": "http://devedge.eu" }],
+    "require": {
+        "king23/king23": "0.1.0"
+    }
+}
