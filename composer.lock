@@ -1,0 +1,111 @@
+{
+    "hash": "64c45ddeb66c1a9a999ce0f5e7d4ab23",
+    "packages": [
+        {
+            "name": "king23/king23",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/ppetermann/king23.git",
+                "reference": "0.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/ppetermann/king23/zipball/0.1.0",
+                "reference": "0.1.0",
+                "shasum": ""
+            },
+            "require": {
+                "twig/twig": "1.8.3"
+            },
+            "suggest": {
+                "doctrine/doctrine1": "1.2.*",
+                "king23/project_template": "0.1.0"
+            },
+            "time": "2012-07-07 23:16:49",
+            "bin": [
+                "bin/king23"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "King23": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Peter Petermann",
+                    "email": "ppetermann80@googlemail.com",
+                    "homepage": "http://devedge.eu"
+                }
+            ],
+            "description": "the King23 Framework",
+            "homepage": "http://king23.net",
+            "keywords": [
+                "framework",
+                "king23"
+            ]
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.8.3",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/fabpot/Twig.git",
+                "reference": "v1.8.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/fabpot/Twig/zipball/v1.8.3",
+                "reference": "v1.8.3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "time": "2012-06-17 11:48:16",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ]
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ]
+}
