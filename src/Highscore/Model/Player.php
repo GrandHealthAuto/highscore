@@ -24,7 +24,7 @@ class Player extends MongoObject implements \ArrayAccess
 
     public static function getPlayerTable($offset)
     {
-        $i = 1;
+        $i = $offset;
         $result = array();
         foreach(
             Player::find(array())
@@ -36,9 +36,9 @@ class Player extends MongoObject implements \ArrayAccess
             $result[] = array(
                 "name" => $player->name,
                 "value" => $player->value,
-                "rank" => $i++
+                "rank" => ++$i
             );
-            
+
         }
         return $result;
     }
