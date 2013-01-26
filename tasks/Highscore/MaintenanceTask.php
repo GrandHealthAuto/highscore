@@ -26,7 +26,7 @@ class MaintenanceTask extends \King23\CommandLine\Task
     public function setup_indexes(array $options)
     {
         $this->cli->message("setting indexes");
-        $reg = \King23\Core\Registry::getInstance();
+        $reg = Registry::getInstance();
 
         $col = $reg->mongo['db']->Player;
         $col->ensureIndex(array("name" => 1), array("name" => "i_name"));
