@@ -1,7 +1,9 @@
 <?php
 namespace Highscore\Model;
 
-class Player extends \King23\Mongo\MongoObject implements \ArrayAccess
+use King23\Mongo\MongoObject;
+
+class Player extends MongoObject implements \ArrayAccess
 {
     protected $_className = "Player";
 
@@ -20,8 +22,4 @@ class Player extends \King23\Mongo\MongoObject implements \ArrayAccess
         return self::_find(__CLASS__, array())->count();
     }
 
-    public static function getInstanceById($id)
-    {
-        return self::_getInstanceById(__CLASS__, $id);
-    }
 }
