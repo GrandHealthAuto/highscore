@@ -14,8 +14,9 @@ class PlayerAPIView extends APIView
             {
                 $player = new Player();
                 $player->name = $playerName;
+                $player->value = 0;
             }
-            $player->value = $value;
+            $player->value = ($value > $player->value) ? $value: $player->value;
             $player->save();
             echo 1;
             return;
