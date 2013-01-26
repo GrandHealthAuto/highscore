@@ -4,6 +4,7 @@ class StaticView extends BaseView
 {
     protected function index($request)
     {
-        return $this->render("static/index.html", array());
+        var_dump($_REQUEST);
+        die();
     }
 }
