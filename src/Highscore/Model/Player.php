@@ -22,4 +22,22 @@ class Player extends MongoObject implements \ArrayAccess
         return self::_find(__CLASS__, array())->count();
     }
 
+    public static function getPlayerTable($offset)
+    {
+        $result = array();
+        foreach(
+            Player::find(array())
+                ->skip($offset)
+                ->limit(25)
+                ->sort(array("value" => -1)
+                ) as $player)
+        {
+            $result[] = array(
+                "name" => $player->name,
+                "value" => $player->value
+            );
+        }
+        return $result;
+    }
+
 }

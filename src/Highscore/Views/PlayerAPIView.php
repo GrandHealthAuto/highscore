@@ -24,4 +24,11 @@ class PlayerAPIView extends APIView
             return;
         }
     }
+
+    public function load($request)
+    {
+        $offset = (int) $_REQUEST['offset'];
+        echo json_encode(Player::getPlayerTable($offset));
+        return;
+    }
 }
