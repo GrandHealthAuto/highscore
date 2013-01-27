@@ -36,7 +36,7 @@ class PlayerAPIView extends APIView
     public function getPlayerScore($request)
     {
         $name = $_REQUEST['name'];
-        if(!$player = Player::getInstanceByPlayerName($playerName))
+        if(!$player = Player::getInstanceByPlayerName($name))
         {
             echo 0;
         } else {
