@@ -32,4 +32,16 @@ class PlayerAPIView extends APIView
         echo json_encode(Player::getPlayerTable($offset));
         return;
     }
+
+    public function getPlayerScore($request)
+    {
+        $name = $_REQUEST['name'];
+        if(!$player = Player::getInstanceByPlayerName($playerName))
+        {
+            echo 0;
+        } else {
+            echo $player->value;
+        }
+        return;
+    }
 }
