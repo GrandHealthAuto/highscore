@@ -1,18 +1,23 @@
 {
-    "hash": "64c45ddeb66c1a9a999ce0f5e7d4ab23",
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ea20df8162ba86ccb2a72d60b5f38f5a",
     "packages": [
         {
             "name": "king23/king23",
             "version": "0.1.0",
             "source": {
                 "type": "git",
-                "url": "git://github.com/ppetermann/king23.git",
-                "reference": "0.1.0"
+                "url": "https://github.com/ppetermann/king23.git",
+                "reference": "8fe220f2ad0109be7d6ef4f4e809dfe5a8a82498"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/ppetermann/king23/zipball/0.1.0",
-                "reference": "0.1.0",
+                "url": "https://api.github.com/repos/ppetermann/king23/zipball/8fe220f2ad0109be7d6ef4f4e809dfe5a8a82498",
+                "reference": "8fe220f2ad0109be7d6ef4f4e809dfe5a8a82498",
                 "shasum": ""
             },
             "require": {
@@ -22,7 +27,6 @@
                 "doctrine/doctrine1": "1.2.*",
                 "king23/project_template": "0.1.0"
             },
-            "time": "2012-07-07 23:16:49",
             "bin": [
                 "bin/king23"
             ],
@@ -48,26 +52,30 @@
             "keywords": [
                 "framework",
                 "king23"
-            ]
+            ],
+            "support": {
+                "issues": "https://github.com/ppetermann/king23/issues",
+                "source": "https://github.com/ppetermann/king23/tree/0.1.0"
+            },
+            "time": "2012-07-08T06:16:49+00:00"
         },
         {
             "name": "twig/twig",
             "version": "v1.8.3",
             "source": {
                 "type": "git",
-                "url": "git://github.com/fabpot/Twig.git",
-                "reference": "v1.8.3"
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "147e5d6d60fb1214f63001e0b86ed2f765276e7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Twig/zipball/v1.8.3",
-                "reference": "v1.8.3",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/147e5d6d60fb1214f63001e0b86ed2f765276e7d",
+                "reference": "147e5d6d60fb1214f63001e0b86ed2f765276e7d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2012-06-17 11:48:16",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -97,15 +105,21 @@
             "homepage": "http://twig.sensiolabs.org",
             "keywords": [
                 "templating"
-            ]
+            ],
+            "support": {
+                "issues": "https://github.com/twigphp/Twig/issues",
+                "source": "https://github.com/twigphp/Twig/tree/v1.8.3"
+            },
+            "time": "2012-06-17T18:48:16+00:00"
         }
     ],
-    "packages-dev": null,
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ]
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
